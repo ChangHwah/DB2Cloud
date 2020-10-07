@@ -1,6 +1,6 @@
  html, body {
    margin: auto;
-   background-color:darkgray;
+   background-color:black;
  }
  .index-background-image {
   background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/indexBack.jpg') no-repeat center fixed;
@@ -9,6 +9,80 @@
   min-height: 100vh;
   background-size: cover;
 }
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding: 30px 60px 0px 0px;
+}
+.navbar li {
+  float: right;
+
+}
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: large;
+}
+.navbar li a:hover {
+  opacity: 0.5;
+}
+#navbar {
+  animation: fadeIn ease-in 3s;
+    -webkit-animation: fadeIn ease-in 3s;
+    -moz-animation: fadeIn ease-in 3s;
+    -o-animation: fadeIn ease-in 3s;
+    -ms-animation: fadeIn ease-in 3s;
+}
+    @keyframes fadeIn {
+      0% {
+        opacity:0;
+      }
+      100% {
+        opacity:1;
+      }
+    }
+    
+    @-moz-keyframes fadeIn {
+      0% {
+        opacity:0;
+      }
+      100% {
+        opacity:1;
+      }
+    }
+    
+    @-webkit-keyframes fadeIn {
+      0% {
+        opacity:0;
+      }
+      100% {
+        opacity:1;
+      }
+    }
+    
+    @-o-keyframes fadeIn {
+      0% {
+        opacity:0;
+      }
+      100% {
+        opacity:1;
+      }
+    }
+    
+    @-ms-keyframes fadeIn {
+      0% {
+        opacity:0;
+      }
+      100% {
+        opacity:1;
+    }
+  }
+
 .hero-flex-container {
   display: grid;
   place-items: center;
