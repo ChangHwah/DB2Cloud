@@ -1,8 +1,7 @@
  html {
-  background-image: url('rogueoneheader.jpg') linear-gradient();
+  background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('rogueoneheader.jpg');
   height: 100%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
 }
