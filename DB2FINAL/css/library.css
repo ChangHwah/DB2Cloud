@@ -1,8 +1,11 @@
 html, body {
-    margin: auto;
+    margin: 0;
+    padding: 0;
+    height: 100%;
     background-color: rgb(117, 54, 54);
     color: white;
     font-family: 'Source Code Pro', monospace;
+    scroll-behavior: smooth;
   }
   a {
    text-decoration: none;
@@ -12,9 +15,8 @@ html, body {
  }
  .library-background-image {
   background: url('../images/libraryBack.jpg') no-repeat center fixed;
-  height: auto;
   width: auto;
-  min-height: 100vh;
+  height: 100vh;
   background-size: cover;
 }
 .navbar ul {
@@ -89,6 +91,82 @@ html, body {
 .library-title-container {
   display: grid;
   place-items: center;
-  font-size: x-large;
+  font-size: xx-large;
   text-align: center;
+  padding-top: 50px;
 }
+#library-title-container-transition {
+  animation: fadeIn ease 1.5s;
+    -webkit-animation: fadeIn ease 1.5s;
+    -moz-animation: fadeIn ease 1.5s;
+    -o-animation: fadeIn ease 1.5s;
+    -ms-animation: fadeIn ease 1.5s;
+}
+    @keyframes fadeIn {
+      0% {
+        opacity:0;
+      }
+      100% {
+        opacity:1;
+      }
+    }
+    
+    @-moz-keyframes fadeIn {
+      0% {
+        opacity:0;
+      }
+      100% {
+        opacity:1;
+      }
+    }
+    
+    @-webkit-keyframes fadeIn {
+      0% {
+        opacity:0;
+      }
+      100% {
+        opacity:1;
+      }
+    }
+    
+    @-o-keyframes fadeIn {
+      0% {
+        opacity:0;
+      }
+      100% {
+        opacity:1;
+      }
+    }
+    
+    @-ms-keyframes fadeIn {
+      0% {
+        opacity:0;
+      }
+      100% {
+        opacity:1;
+    }
+  }
+  .see-below-placement {
+    text-align: center;
+    padding-top: 200px;
+    font-size: x-large;
+  }
+  .videos-container {
+    height: 100vh;
+  }
+  .videos-title-container {
+    text-align: center;
+    padding-top: 50px;
+  }
+  .grid-container {
+    display: grid;
+    place-content: center;
+    grid-template-columns: auto auto ;
+    grid-gap: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .grid-container > div {
+    font-size: 30px;
+    width: 500px;
+  }
