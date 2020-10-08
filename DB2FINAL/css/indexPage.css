@@ -11,7 +11,7 @@ a:hover {
   opacity: 0.5;
 }
  .index-background-image {
-  background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/DB2FINAL/images/indexBack.jpg') no-repeat center fixed;
+  background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/indexBack.jpg') no-repeat center fixed;
   height: auto;
   width: auto;
   min-height: 100vh;

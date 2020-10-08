@@ -11,7 +11,7 @@ html, body {
    opacity: 0.5;
  }
  .library-background-image {
-  background: url('/DB2FINAL/images/libraryBack.jpg') no-repeat center fixed;
+  background: url('images/libraryBack.jpg') no-repeat center fixed;
   height: auto;
   width: auto;
   min-height: 100vh;
