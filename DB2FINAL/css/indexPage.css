@@ -1,11 +1,17 @@
  html, body {
    margin: auto;
-   background-color:black;
+   background-color: rgb(117, 54, 54);
    color: white;
    font-family: 'Source Code Pro', monospace;
  }
+ a {
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.5;
+}
  .index-background-image {
-  background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/indexBack.jpg') no-repeat center fixed;
+  background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/DB2FINAL/images/indexBack.jpg') no-repeat center fixed;
   height: auto;
   width: auto;
   min-height: 100vh;
@@ -24,14 +30,10 @@
 }
 .navbar li a {
   display: block;
-  color: white;
+  color: rgb(255, 80, 80);
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
   font-size: large;
-}
-.navbar li a:hover {
-  opacity: 0.5;
 }
 #navbar {
   animation: fadeIn ease 3s;
@@ -145,4 +147,7 @@
       100% {
         opacity:1;
     }
+  }
+  #watchingNow a:hover {
+    display: none;
   }

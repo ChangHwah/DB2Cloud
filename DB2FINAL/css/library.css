@@ -1,0 +1,12 @@
+html, body {
+    margin: auto;
+    background-color: rgb(117, 54, 54);
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+  }
+  a {
+   text-decoration: none;
+ }
+ a:hover {
+   opacity: 0.5;
+ }
