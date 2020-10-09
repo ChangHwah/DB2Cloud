@@ -4,7 +4,7 @@ html, body {
     height: 100%;
     background-color: rgb(117, 54, 54);
     color: white;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'PT Serif', serif;
     scroll-behavior: smooth;
   }
   a {

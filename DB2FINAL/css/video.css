@@ -4,7 +4,7 @@ html, body {
     height: 100%;
     background-color: rgb(117, 54, 54);
     color: white;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'PT Serif', serif;
     scroll-behavior: smooth;
   }
   a {
@@ -142,7 +142,7 @@ html, body {
             padding-bottom: 50px;
           }
           .grid-container > div {
-            font-size: 10px;
+            font-size: 14px;
             width: 1000px;
             height: 50px;
           }
